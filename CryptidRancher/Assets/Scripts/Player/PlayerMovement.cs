@@ -17,10 +17,17 @@ public class PlayerMovement : MonoBehaviour {
 
     public float walkSpeed = 3f;
 
+	public bool isAllowedToMove;
+
+	void Start()
+	{
+		isAllowedToMove = true;
+	}
+
     // Update is called once per frame
     void Update()
     {
-        if (!isMoving)
+        if (!isMoving && isAllowedToMove) 
         {
             input = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
