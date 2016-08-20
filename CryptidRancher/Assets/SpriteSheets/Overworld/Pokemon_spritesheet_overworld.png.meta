@@ -1,0 +1,1478 @@
+fileFormatVersion: 2
+guid: 77491227e607e444aa4a289b2873e8a0
+timeCreated: 1471648196
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sea2
+    21300002: Sea3
+    21300004: Pokemon_spritesheet_overworld_20
+    21300006: Pokemon_spritesheet_overworld_24
+    21300008: Pokemon_spritesheet_overworld_25
+    21300010: Pokemon_spritesheet_overworld_26
+    21300012: Pokemon_spritesheet_overworld_27
+    21300014: Pokemon_spritesheet_overworld_28
+    21300016: Pokemon_spritesheet_overworld_29
+    21300018: Pokemon_spritesheet_overworld_32
+    21300020: Land1
+    21300022: Sea1
+    21300024: Land2
+    21300026: Land3
+    21300028: Pokemon_spritesheet_overworld_43
+    21300030: Pokemon_spritesheet_overworld_44
+    21300032: Pokemon_spritesheet_overworld_45
+    21300034: Pokemon_spritesheet_overworld_46
+    21300036: Pokemon_spritesheet_overworld_47
+    21300038: Pokemon_spritesheet_overworld_48
+    21300040: Pokemon_spritesheet_overworld_49
+    21300042: Pokemon_spritesheet_overworld_52
+    21300044: Lake1
+    21300046: Lake2
+    21300048: Lake3
+    21300050: Lake4
+    21300052: Mount1
+    21300054: Mount2
+    21300056: Mount3
+    21300058: Pokemon_spritesheet_overworld_60
+    21300060: Pokemon_spritesheet_overworld_63
+    21300062: Pokemon_spritesheet_overworld_64
+    21300064: Pokemon_spritesheet_overworld_65
+    21300066: Pokemon_spritesheet_overworld_66
+    21300068: Pokemon_spritesheet_overworld_67
+    21300070: Pokemon_spritesheet_overworld_68
+    21300072: Pokemon_spritesheet_overworld_69
+    21300074: Pokemon_spritesheet_overworld_73
+    21300076: Pokemon_spritesheet_overworld_74
+    21300078: Pokemon_spritesheet_overworld_75
+    21300080: Pokemon_spritesheet_overworld_76
+    21300082: Desert1
+    21300084: Desert2
+    21300086: Desert3
+    21300088: Pokemon_spritesheet_overworld_80
+    21300090: Pokemon_spritesheet_overworld_82
+    21300092: Pokemon_spritesheet_overworld_83
+    21300094: Pokemon_spritesheet_overworld_84
+    21300096: Pokemon_spritesheet_overworld_85
+    21300098: Pokemon_spritesheet_overworld_86
+    21300100: Pokemon_spritesheet_overworld_87
+    21300102: Pokemon_spritesheet_overworld_88
+    21300104: Pokemon_spritesheet_overworld_89
+    21300106: Ice1
+    21300108: Ice2
+    21300110: Ice3
+    21300112: Pokemon_spritesheet_overworld_100
+    21300114: Pokemon_spritesheet_overworld_101
+    21300116: Pokemon_spritesheet_overworld_102
+    21300118: Pokemon_spritesheet_overworld_103
+    21300120: Pokemon_spritesheet_overworld_104
+    21300122: Pokemon_spritesheet_overworld_105
+    21300124: Pokemon_spritesheet_overworld_106
+    21300126: Pokemon_spritesheet_overworld_107
+    21300128: Pokemon_spritesheet_overworld_108
+    21300130: Pokemon_spritesheet_overworld_110
+    21300132: Pokemon_spritesheet_overworld_111
+    21300134: Canyon1
+    21300136: Canyon2
+    21300138: Swamp1
+    21300140: Swamp2
+    21300142: Pokemon_spritesheet_overworld_119
+    21300144: Pokemon_spritesheet_overworld_122
+    21300146: Pokemon_spritesheet_overworld_123
+    21300148: Pokemon_spritesheet_overworld_125
+    21300150: Pokemon_spritesheet_overworld_126
+    21300152: Pokemon_spritesheet_overworld_127
+    21300154: Pokemon_spritesheet_overworld_128
+    21300156: Pokemon_spritesheet_overworld_129
+    21300158: Pokemon_spritesheet_overworld_131
+    21300160: Pokemon_spritesheet_overworld_132
+    21300162: Pokemon_spritesheet_overworld_133
+    21300164: Pokemon_spritesheet_overworld_134
+    21300166: Pokemon_spritesheet_overworld_140
+    21300168: Pokemon_spritesheet_overworld_144
+    21300170: Pokemon_spritesheet_overworld_145
+    21300172: Pokemon_spritesheet_overworld_146
+    21300174: Pokemon_spritesheet_overworld_148
+    21300176: Pokemon_spritesheet_overworld_149
+    21300178: Pokemon_spritesheet_overworld_151
+    21300180: Pokemon_spritesheet_overworld_153
+    21300182: Pokemon_spritesheet_overworld_156
+    21300184: Pokemon_spritesheet_overworld_158
+    21300186: Pokemon_spritesheet_overworld_161
+    21300188: Pokemon_spritesheet_overworld_162
+    21300190: Pokemon_spritesheet_overworld_163
+    21300192: Pokemon_spritesheet_overworld_164
+    21300194: Pokemon_spritesheet_overworld_167
+    21300196: Pokemon_spritesheet_overworld_168
+    21300198: Pokemon_spritesheet_overworld_170
+    21300200: Pokemon_spritesheet_overworld_173
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 12
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sea2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 135
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sea3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 135
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 113
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 121
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_25
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 115
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 106
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 106
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_29
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 106
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Land1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 126
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sea1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 135
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Land2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 126
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Land3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 126
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_43
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 113
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_45
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_46
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_47
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_48
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_49
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 95
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_52
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 116
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lake1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 108
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lake2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 108
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lake3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 108
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lake4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 108
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mount1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 117
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mount2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 117
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mount3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 117
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_60
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 92
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 92
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_65
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 115
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_66
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 86
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_67
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 86
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_68
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 86
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_69
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 86
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_73
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 102
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_74
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 102
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_75
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 116
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_76
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 116
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Desert1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Desert2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Desert3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_82
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 92
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_83
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 71
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_84
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_85
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 115
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_86
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_87
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_88
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_89
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 90
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 90
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ice3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 90
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_100
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 113
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_101
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 74
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_103
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 124
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_104
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 115
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_105
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_106
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 59
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_107
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_108
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 59
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_110
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_111
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 102
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Canyon1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Canyon2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Swamp1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Swamp2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_122
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 50
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_123
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 55
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_125
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 59
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_126
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_127
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 59
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_128
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 88
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_129
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 91
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_131
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 67
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_132
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 67
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_133
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 117
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_134
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 117
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_140
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 42
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_144
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 36
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_145
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_146
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 46
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_148
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_149
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 29
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_151
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 29
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_153
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 29
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_156
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 26
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_158
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 64
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_161
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_162
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_163
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_164
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_167
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 21
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_168
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 24
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_170
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 10
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pokemon_spritesheet_overworld_173
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 14
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
