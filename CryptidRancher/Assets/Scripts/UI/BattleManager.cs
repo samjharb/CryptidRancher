@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 
 public class BattleManager : MonoBehaviour
 {
 
 	public BattleMenu currentMenu;
+
+    public delegate void BattleResultEventHandler(int result);
+    public event BattleResultEventHandler BattleResult;
 
 	[Header("Selection")] 
 	public GameObject SelectionMenu;
@@ -62,16 +66,43 @@ public class BattleManager : MonoBehaviour
 		{
 			if (currentSelection < 4)
 			{
-				currentSelection++;
+				int possibleSelection = currentSelection + 2;
+                if (possibleSelection > 4)
+                {
+                    currentSelection = possibleSelection - 4;
+                }
+                else
+                {
+                    currentSelection = possibleSelection;
+                }
 			}
 		}
 		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
 			if (currentSelection > 0)
 			{
-				currentSelection--;
+				int possibleSelection = currentSelection - 2;
+                if (possibleSelection < 0)
+                {
+                    currentSelection = 4 + possibleSelection;
+                }
+                else
+                {
+                    currentSelection = possibleSelection;
+                }
 			}	
 		}
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            if (currentSelection % 2 == 0)
+            {
+                currentSelection--;
+            }
+            else
+            {
+                currentSelection++;
+            }
+        }
 
 		if (currentSelection == 0)
 		{
@@ -84,29 +115,28 @@ public class BattleManager : MonoBehaviour
 				switch (currentSelection)
 				{
 					case 1:
-								moveO.text = "> " + moveO.text;
-								moveT.text = moveT.text;
-								moveTH.text = moveTH.text;
-								movef.text = movef.text;
-
+                        moveO.text = "> " + moveOT;
+						moveT.text = moveTT;
+						moveTH.text = moveTHT;
+						movef.text = movefT;
 						break;
-						case 2:
-								moveO.text = moveO.text;
-								moveT.text = "> " + moveT.text;
-								moveTH.text = moveTH.text;
-								movef.text = movef.text;
+					case 2:
+						moveO.text = moveOT;
+						moveT.text = "> " + moveTT;
+						moveTH.text = moveTHT;
+						movef.text = movefT;
 						break;
 					case 3:
-								moveO.text = moveO.text;
-								moveT.text = moveT.text;
-								moveTH.text = "> " + moveTH.text;
-								movef.text = movef.text;
+						moveO.text = moveOT;
+						moveT.text = moveTT;
+						moveTH.text = "> " + moveTHT;
+						movef.text = movefT;
 						break;
 					case 4:
-								moveO.text = moveO.text;
-								moveT.text = moveT.text;
-								moveTH.text = moveTH.text;
-								movef.text = "> " + movef.text;
+						moveO.text = moveOT;
+						moveT.text = moveTT;
+						moveTH.text = moveTHT;
+						movef.text = "> " + movefT;
 						break;
 				}
 				break;
@@ -119,35 +149,99 @@ public class BattleManager : MonoBehaviour
 						bag.text = bagT;
 						cryptid.text = cryptidT;
 						run.text = runT;
-
+                        selectionInfoText.text = fightT;
 						break;
 					case 2:
 						fight.text = fightT;
 						bag.text = "> " + bagT;
 						cryptid.text = cryptidT;
 						run.text = runT;
+                        selectionInfoText.text = bagT;
 						break;
 					case 3:
 						fight.text = fightT;
 						bag.text = bagT;
 						cryptid.text = "> " + cryptidT;
 						run.text = runT;
+                        selectionInfoText.text = cryptidT;
 						break;
 					case 4:
 						fight.text = fightT;
 						bag.text = bagT;
 						cryptid.text = cryptidT;
 						run.text = "> " + runT;
+                        selectionInfoText.text = runT;
 						break;
 				}
 				break;
 		}
-		
 
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            SelectMenuItem(currentMenu, currentSelection);
+        }
+    }
 
-	}
+    void ExitBattle(int exitCode)
+    {
+        BattleResult.Invoke(exitCode);
+    }
 
-	public void ChangeMenu(BattleMenu bm)
+    public void EnterBattle(List<BaseCryptid> playerCryptids)
+    {
+        ChangeMenu(BattleMenu.Selection);
+        if (playerCryptids.Count == 0)
+        {
+            moveOT = "Punch";
+            moveTT = "Kick";
+            moveTHT = "Tackle";
+            movefT = "Dodge";
+        }
+    }
+
+    void SelectMenuItem(BattleMenu bm, int currentSelection)
+    {
+        switch (bm)
+        {
+            case BattleMenu.Fight:
+                switch (currentSelection)
+                {
+                    case 1:
+                        ChangeMenu(BattleMenu.Selection);
+                        break;
+                    case 2:
+                        ChangeMenu(BattleMenu.Selection);
+                        break;
+                    case 3:
+                        ChangeMenu(BattleMenu.Selection);
+                        break;
+                    case 4:
+                        ChangeMenu(BattleMenu.Selection);
+                        break;
+                }
+                break;
+            case BattleMenu.Selection:
+
+                switch (currentSelection)
+                {
+                    case 1:
+                        ChangeMenu(BattleMenu.Fight);
+                        break;
+                    case 2:
+                        ChangeMenu(BattleMenu.Bag);
+                        break;
+                    case 3:
+                        ChangeMenu(BattleMenu.Cryptids);
+                        break;
+                    case 4:
+                        ExitBattle(0);
+                        break;
+                }
+                break;
+        }
+    }
+
+	void ChangeMenu(BattleMenu bm)
 	{
 		currentMenu = bm;
 		currentSelection = 1;

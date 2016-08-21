@@ -74,5 +74,5 @@
     <Compile Include="Assets\Scripts\Pokemon\BaseCryptid.cs" />
     <Compile Include="Assets\Scripts\UI\BattleManager.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
