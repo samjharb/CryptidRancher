@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System.Collections;
 
 public class BattleManager : MonoBehaviour
 {
@@ -55,6 +56,9 @@ public class BattleManager : MonoBehaviour
 
     private float defenseHealth;
     private float defenseMaxHealth;
+
+    private bool battleComplete;
+    private int exitCode;
 
 	// Use this for initialization
 	void Start ()
@@ -187,11 +191,18 @@ public class BattleManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            SelectMenuItem(currentMenu, currentSelection);
+            if (battleComplete)
+            {
+                ExitBattle();
+            }
+            else
+            {
+                SelectMenuItem(currentMenu, currentSelection);
+            }
         }
     }
 
-    void ExitBattle(int exitCode)
+    void ExitBattle()
     {
         BattleResult.Invoke(exitCode);
     }
@@ -213,6 +224,9 @@ public class BattleManager : MonoBehaviour
 
         defenseMaxHealth = (float)battleCryptid.Hp;
         defenseHealth = defenseMaxHealth;
+
+        battleComplete = false;
+        exitCode = 0;
     }
 
     void SelectMenuItem(BattleMenu bm, int currentSelection)
@@ -223,20 +237,21 @@ public class BattleManager : MonoBehaviour
                 switch (currentSelection)
                 {
                     case 1:
-                        UpdateHealth(5f);
-                        ChangeMenu(BattleMenu.Selection);
+                        AttackDefender(5f);
                         break;
                     case 2:
-                        UpdateHealth(10f);
-                        ChangeMenu(BattleMenu.Selection);
+                        AttackDefender(10f);
                         break;
                     case 3:
-                        UpdateHealth(15f);
-                        ChangeMenu(BattleMenu.Selection);
+                        AttackDefender(15f);
                         break;
                     case 4:
-                        ChangeMenu(BattleMenu.Selection);
                         break;
+                }
+
+                if (!battleComplete)
+                {
+                    ChangeMenu(BattleMenu.Selection);
                 }
                 break;
             case BattleMenu.Selection:
@@ -253,7 +268,8 @@ public class BattleManager : MonoBehaviour
                         ChangeMenu(BattleMenu.Cryptids);
                         break;
                     case 4:
-                        ExitBattle(0);
+                        exitCode = 0;
+                        ExitBattle();
                         break;
                 }
                 break;
@@ -293,13 +309,31 @@ public class BattleManager : MonoBehaviour
 
 	}
 
-    void UpdateHealth(float attackStrength)
+    void AttackDefender(float attackStrength)
     {
         defenseHealth -= attackStrength;
         float healthPercent = defenseHealth / defenseMaxHealth;
 
         Image health = defenseHealthBar.GetComponent<Image>();
         health.fillAmount = healthPercent;
+
+        if (defenseHealth <= 0f)
+        {
+            DefenderCryptidDie();
+        }
+    }
+
+    void DefenderCryptidDie()
+    {
+        ShowMessage(defenseName.text + " has been killed");
+        exitCode = 2;
+        battleComplete = true;
+    }
+
+    void ShowMessage(string message)
+    {
+        ChangeMenu(BattleMenu.Info);
+        infoText.text = message;
     }
 }
 
