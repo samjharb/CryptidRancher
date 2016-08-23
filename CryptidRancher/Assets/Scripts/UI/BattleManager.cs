@@ -44,8 +44,17 @@ public class BattleManager : MonoBehaviour
 	public GameObject infoMenu;
 	public Text infoText;
 
+    [Header("Defense")]
+    public GameObject defenseStats;
+    public Text defenseName;
+    public Text defenseLevel;
+    public GameObject defenseHealthLevel;
+    public GameObject defenseHealthBar;
+
 	[Header("Misc")] public int currentSelection;
-	
+
+    private float defenseHealth;
+    private float defenseMaxHealth;
 
 	// Use this for initialization
 	void Start ()
@@ -187,7 +196,7 @@ public class BattleManager : MonoBehaviour
         BattleResult.Invoke(exitCode);
     }
 
-    public void EnterBattle(List<BaseCryptid> playerCryptids)
+    public void EnterBattle(List<BaseCryptid> playerCryptids, BaseCryptid battleCryptid)
     {
         ChangeMenu(BattleMenu.Selection);
         if (playerCryptids.Count == 0)
@@ -197,6 +206,13 @@ public class BattleManager : MonoBehaviour
             moveTHT = "Tackle";
             movefT = "Dodge";
         }
+
+        defenseName.text = battleCryptid.name;
+        Image health = defenseHealthBar.GetComponent<Image>();
+        health.fillAmount = 1f;
+
+        defenseMaxHealth = (float)battleCryptid.Hp;
+        defenseHealth = defenseMaxHealth;
     }
 
     void SelectMenuItem(BattleMenu bm, int currentSelection)
@@ -207,12 +223,15 @@ public class BattleManager : MonoBehaviour
                 switch (currentSelection)
                 {
                     case 1:
+                        UpdateHealth(5f);
                         ChangeMenu(BattleMenu.Selection);
                         break;
                     case 2:
+                        UpdateHealth(10f);
                         ChangeMenu(BattleMenu.Selection);
                         break;
                     case 3:
+                        UpdateHealth(15f);
                         ChangeMenu(BattleMenu.Selection);
                         break;
                     case 4:
@@ -273,6 +292,15 @@ public class BattleManager : MonoBehaviour
 		}
 
 	}
+
+    void UpdateHealth(float attackStrength)
+    {
+        defenseHealth -= attackStrength;
+        float healthPercent = defenseHealth / defenseMaxHealth;
+
+        Image health = defenseHealthBar.GetComponent<Image>();
+        health.fillAmount = healthPercent;
+    }
 }
 
 public enum BattleMenu

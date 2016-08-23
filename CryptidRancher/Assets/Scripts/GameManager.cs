@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
         aPoke.GetComponent<SpriteRenderer>().sprite = attackCryptid.Image;
 
         bm.BattleResult += new BattleManager.BattleResultEventHandler(ExitBattle);
-		bm.EnterBattle(PlayerCryptids);
+		bm.EnterBattle(PlayerCryptids, battleCryptid);
         
 	}
 
